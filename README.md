@@ -29,14 +29,13 @@ This Node.js application serves as an example of integrating Application Perform
 
 Before running the application, ensure you have Node.js installed. You can install the required packages using:
 
-```bash
 npm install
 
 # AWS Configuration
 
 Replace the placeholder values in the code with your AWS Access Key, AWS Secret Key, and AWS Region.
 
-```javascript
+
 const awsAccessKey = "your AWS Access Key";
 const awsSecretKey = "your AWS Secret Key";
 const awsRegion = "your AWS Region";
