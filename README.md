@@ -2,25 +2,6 @@
 
 This is a Node.js implementation of an APM (Application Performance Monitoring) example, inspired by the provided Go APM code.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Setup](#setup)
-  - [AWS Configuration](#aws-configuration)
-- [Models](#models)
-- [APM Setup](#apm-setup)
-  - [Event](#event)
-  - [Transaction](#transaction)
-  - [Segment](#segment)
-- [Fake Database](#fake-database)
-- [Middleware and Helper](#middleware-and-helper)
-- [Routes](#routes)
-- [Helper Functions](#helper-functions)
-  - [logToCloudWatchLogs](#logtocloudwatchlogs)
-  - [sendEventToCloudWatchLogs](#sendeventtocloudwatchlogs)
-  - [getLogs](#getlogs)
-- [Running the Server](#running-the-server)
-
 ## Introduction
 
 This Node.js application serves as an example of integrating Application Performance Monitoring (APM) features using AWS CloudWatch Logs. It includes middleware for starting and ending transactions and segments, as well as logging to CloudWatch Logs.
