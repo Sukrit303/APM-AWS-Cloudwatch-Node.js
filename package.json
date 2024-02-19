@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1561.0",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  },
+  "name": "apm-aws-cloudwatch-node.js",
+  "description": "This code provides a simple API for managing courses with AWS APM (Application Performance Monitoring) setup using CloudWatch Logs. It uses the Gorilla Mux router for handling HTTP requests and AWS SDK for Node.js for CloudWatch Logs integration.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
